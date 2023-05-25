@@ -1,4 +1,6 @@
-
+.upper-bar{
+    display: none;
+}
 
 /* NavBar Section */
 .navbar {
@@ -118,13 +120,17 @@
     color: #F67117;
 }
 
+
+/* Content Section */
+
 .container{
     /* min-width: 800px; */
     max-width: 800px;
     /* border: 1px solid black; */
-    top: 100px;
+    top: 80px;
     /* left: 255px; */
-    margin-left: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     height: 100%;
     position: relative;
     /* margin: 19px 0 0 355px; */
@@ -265,6 +271,7 @@
     left: 72%;
     position: relative;
     top: 18px;
+    cursor: pointer;
 }
 
 .menu{
@@ -303,8 +310,8 @@
 
 .img-part img{
     border-radius: 14px;
-    height: 96px;
-    width: 118px;
+    height: 100%;
+    width: 100%;
 }
 
 .img-part{
@@ -330,17 +337,17 @@
     background: rgb(255, 254, 255);
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
-    left: 87%;
+    left: 27%;
     bottom: 15%;
     z-index: 1;
     border: 1px solid red;
     border-radius: 6px;
-    height: 3.5vh;
-    width: 6vw;
+    height: 2vh;
+    width: 3vw;
     text-align: center;
     /* color: black; */
     /* background: azure; */
-    font-style: ;
+    /* font-style: ; */
     font-weight: 500;
 }
 
@@ -357,9 +364,10 @@ a{
 
 .hotel-info{
     height: 30vh;
-    margin-top: 50%;
+    top: 364px;
     position: relative;
     background: #F1F1F6;
+
 }
 
 .hotel-info img{
@@ -400,7 +408,7 @@ a{
     width: 97%;
     color: #fff;
     position: relative;
-    top: 500px;    
+    top: 473px;    
     /* margin-top: 28%; */
 
 }
