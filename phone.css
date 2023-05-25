@@ -95,7 +95,7 @@
     
     .box{
         font-size: .5rem;
-        height: 70px;
+        height: 75px;
         width: auto;
     }  
 
@@ -106,7 +106,7 @@
 
     .divider{
         border-bottom: .5px solid #d3d3d3;
-        margin-top: 2vh;
+        margin-top: 24px;
       }  
   
 
@@ -120,9 +120,7 @@
         top: 22px;
       }
 
-      .menu{
-        
-      }
+      
 
       .menu-item{
         width: 100%;
@@ -163,9 +161,27 @@
         bottom: 0;
         margin-top: 0;
         height: 200px;
+        width: auto;
+        font-size: .8rem;
       }
 
-  
+      .info{
+        
+      }
+
+      .info-ul li span {
+        margin: 0px 42px 0px 0px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+
+    .info-ul li svg {
+      margin: 1px 8px -7px -29px;
+    }
+
+      .res-right{
+        top: 38px;
+      }
 
   
 
@@ -175,9 +191,7 @@
     
       
 
-  .info{
-    display: none;
-  }
+  
 
   .footer{
     display: none;
