@@ -463,3 +463,7 @@ a{
     border-radius: 26px;
 }
 
+.browse-menu{
+    display: none;
+}
+

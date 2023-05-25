@@ -183,6 +183,25 @@
         top: 38px;
       }
 
+      .browse-menu{
+        display: inline-block;
+        border: 1px solid blue;
+        position: fixed;
+        top: 91vh;
+        left: 29vw;
+        background: #5d8ed5;
+        border-radius: 17px;
+        height: 23px;
+        width: auto;
+        padding: 6px;
+      }
+
+      .browse-menu span{
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
   
 
   
